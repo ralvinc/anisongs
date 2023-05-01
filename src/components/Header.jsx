@@ -5,7 +5,7 @@ function Header(props) {
     return (
       <>
         <div className="logo">
-          <img src="src/logo.png" />
+          <img src="../logo.png" />
           <h1 className="default-h1">AniSongs</h1>
         </div>
 
@@ -46,7 +46,7 @@ function Header(props) {
   } else {
     return (
       <div className="logo">
-        <img src="src/logo.png" />
+        <img src="../logo.png" />
         <h1>AniSongs</h1>
       </div>
     );
