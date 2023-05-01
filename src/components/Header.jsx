@@ -1,11 +1,12 @@
 import ToggleSfwText from "./ToggleText";
+import logo from '../logo.png';
 
 function Header(props) {
   if (props.defaultMain && props.defaultSideBar) {
     return (
       <>
         <div className="logo">
-          <img src="../logo.png" />
+          <img src={logo} />
           <h1 className="default-h1">AniSongs</h1>
         </div>
 
@@ -46,7 +47,7 @@ function Header(props) {
   } else {
     return (
       <div className="logo">
-        <img src="../logo.png" />
+        <img src={logo} />
         <h1>AniSongs</h1>
       </div>
     );
