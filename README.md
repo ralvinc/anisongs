@@ -27,7 +27,7 @@ This will start the development server and open the app in your default browser.
 
 You may also simply open this link in your web browser to view the deployed website:
 
-**https://rkchua.github.io/anisongs/**
+**https://ralvinc.github.io/anisongs/**
 
 ## Built with
 
