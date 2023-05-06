@@ -12,7 +12,7 @@ This is a website that simplifies that process. Instead of manually doing everyt
 
 To install this project, download or clone the repository to your local machine: 
 
-    git clone https://github.com/rkchua/anisongs.git
+    git clone https://github.com/ralvinc/anisongs.git
 
 Then, navigate to the project directory and install the dependencies:
 
