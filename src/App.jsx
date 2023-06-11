@@ -47,7 +47,7 @@ function App() {
   // Fetch 'Queried Animes' from User
   const searchAnime = (query) => {
     fetch(
-      `https://api.jikan.moe/v4/anime?q=${query}&order_by=popularity&limit=50${sfwToggle}`
+      `https://api.jikan.moe/v4/anime?q=${query}&order_by=popularity&limit=25${sfwToggle}`
     )
       .then((response) => response.json())
       .then((data) => SetAnimeList(data.data));
